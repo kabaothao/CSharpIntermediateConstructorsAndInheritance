@@ -19,6 +19,17 @@ namespace CSharpIntermediateConstructorsAndInheritance
 
 /*
 line 12 
+
+So all we need to do here is when declaring the constructor for the car class before opening the body
+
+of the method here we up and colon base and here base is simply a way to access the base class.
+
+The syntax simply represents a method call.
+
+Imagine you're calling a method called base.
+
+And here you're passing an argument to that method.
+
 Basically what's happening here is when we create an object of type car the runtime first tries to create
 
 an object of type vehicle but because the vehicle type does not have a default or prominences constructor
@@ -34,5 +45,7 @@ Enter Colon.
 We use the base keyword open brackets.
 
 And here we go.
+
+
 
  */
